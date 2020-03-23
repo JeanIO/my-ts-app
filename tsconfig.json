@@ -6,6 +6,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": "./",
+    "paths":{
+      "foo": ["types/foo/index"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
