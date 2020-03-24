@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Temp } from './types'
+import { C } from 'src/types/foo' 
 
 interface numValue {
   label: string;
@@ -22,8 +22,8 @@ function App() {
   function log(num:numValue) {
     console.log('time', num)
   }
-  const MM:Temp = {name: 'Jiarui', age: 16}
-  const SS:A = { label: 'nihao', value: 1}
+  const film: MediaStreamWare = { url: 'https://', filmName: '无间道.avi' }
+  console.log(film)
   function chongzai(x: number):number;
   function chongzai(x: string):string;
   function chongzai(x: number|string): number | string {
